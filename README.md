@@ -18,18 +18,30 @@ _filename.cpp_
 
 int main()
 {
-	BigNumber num1 = 10;
-	BigNumber num2 = 34;
-  
+	// Option 1: if you want to use really tremendous numbers, you should initialize BigNumber the following way
+
+	BigNumber num1 = "2873645892367482126347821638412012934127894872164981293871276472563467158189327459827045902543";
+	BigNumber num2 = "-23947528737782";
+  	
+	//Otherwise, it is possible to use another aproach
+	
+	BigNumber num3 = 3285333232948;
+	BigNumber num4 = -23452;
+
 	std::cout << num1 + num2 << std::endl;
-	std::cout << sqrt(num2) << std::endl;
+	std::cout << sqrt(num1) << std::endl;
 	std::cout << num2 % num1 << std::endl;
+	std::cout << max(num2, num4) << std::endl;
+	std::cout << num1 / num3 << std::endl;
 }
  ```
  
  Output:
  ```
- 44
- 5
- 4
+2873645892367482126347821638412012934127894872164981293871276472563467158189327435879517164761
+53606397867861650664229279807513224483331158450
+-23947528737782
+-23452
+874689320263837592575054681896226317321795600229060436708274583503200278414951849
+
  ```
