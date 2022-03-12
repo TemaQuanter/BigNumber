@@ -18,12 +18,12 @@ _filename.cpp_
 
 int main()
 {
-	// Option 1: if you want to use really tremendous numbers, you should initialize BigNumber the following way
+	// Option 1: If you want to use really tremendous numbers, you should initialize BigNumber the following way
 
 	BigNumber num1 = "2873645892367482126347821638412012934127894872164981293871276472563467158189327459827045902543";
 	BigNumber num2 = "-23947528737782";
   	
-	// Otherwise, it is possible to use another aproach
+	// Option 2: Otherwise, it is possible to use another aproach
 	
 	BigNumber num3 = 3285333232948;
 	BigNumber num4 = -23452;
